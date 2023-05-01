@@ -1,37 +1,41 @@
 body {
     background-color: #9FD1FF;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-}
-.inline {
+  }
+  
+  .inline {
     display: inline-block;
     vertical-align: top;
-}
-div.logo {
+  }
+  
+  .logo-container {
     width: 23%;
     padding: 1%;
-}
-nav {
+    text-align: center;
+  }
+  
+  nav {
     width: 73%;
     padding: 1%;
-}
-ul {
+  }
+  
+  ul {
     width: 50%;
     margin-left: auto;
-}
-.logo {
-    text-align: center;
-}
-.heroImg {
-    height: 600px;
-    padding: 25px;
-
-}
-.content{
-    width: 500px;
+  }
+  
+  .hero-img {
+    height: 50vh;
+    padding: 2rem;
+  }
+  
+  .content {
+    width: 80%;
     margin: 0 auto;
-}
-footer ul {
+  }
+  
+  footer ul {
     display: inline-block;
     vertical-align: top;
     padding: 1%;
-}
+  }
